@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+:root {
+    /*Primary*/
+    --Dark-Cyan: hsl(185, 75%, 39%);
+    --Very-Dark-Desaturated-Blue: hsl(229, 23%, 23%);
+    --Dark-Grayish-Blue: hsl(227, 10%, 46%);
+
+    /*Neutral*/
+    --Dark-Gray: hsl(0, 0%, 59%);
+}
+
+body {
+    font-size: 18px;
+    font-family: "Kumbh Sans", sans-serif;
+    background-image: url("images/background.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.component {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.image {
+    margin-left: 130px;
+}
+
+.image img {
+    border-radius: 50px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--Very-Dark-Desaturated-Blue);
+}
+
+h2 span {
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 400;
+}
+
+.middle p {
+    color: var(--Dark-Grayish-Blue);
+}
+
+
+ hr {
+    width: 350px;
+}
+.middle {
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+}
+
+.bottom div {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bottom div strong {
+    font-size: 20px;
+    color: var(--Very-Dark-Desaturated-Blue);
+}
+
+.bottom div span {
+    margin-top: 5px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: var(--Dark-Gray);
+}
